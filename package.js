@@ -1,6 +1,6 @@
 Package.describe({
   summary: "jQuery Validation by jzaefferer, repackaged for Meteor.",
-  version: "1.14.1",
+  version: "1.14.2",
   name: "matadur:jquery-validation",
   git: "https://github.com/matadur/jquery-validation"
 });
