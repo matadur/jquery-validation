@@ -1,17 +1,17 @@
 Package.describe({
   summary: "jQuery Validation by jzaefferer, repackaged for Meteor.",
-  version: "1.14.0",
-  name: "themeteorchef:jquery-validation",
-  git: "https://github.com/themeteorchef/jquery-validation"
+  version: "1.14.1",
+  name: "matadur:jquery-validation",
+  git: "https://github.com/matadur/jquery-validation"
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.3');
   api.use('jquery');
   api.addFiles([
-    'lib/jquery-validation/src/core.js',
-    'lib/jquery-validation/src/ajax.js',
-    'lib/jquery-validation/src/additional/pattern.js'
+    'lib/core.js',
+    'lib/ajax.js',
+    'lib/pattern.js'
   ],'client');
 });
 

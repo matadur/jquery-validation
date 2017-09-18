@@ -1,3 +1,6 @@
+
+Forked from `themeteorchef:jquery-validation`
+
 +++++ DEPRECATION NOTICE +++++
 
 This package is no longer being maintained. **It's recommended that you rely on the official jquery-validation package via NPM**.
